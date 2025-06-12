@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Игнорировать папку .vs (Visual Studio)
+.vs/
+
+# Игнорировать папку CompiledApp, если не хочешь коммитить бинарники
+CompiledApp/
