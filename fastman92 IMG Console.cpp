@@ -574,7 +574,7 @@ bool ProcessCommand(const char* Line)
 		{
 			unsigned __int64 UnusedSpace = Archive.GetSizeOfUnusedSpace();
 
-			printf("Amount of unused space: %d bytes", UnusedSpace);
+printf("Amount of unused space: %I64u bytes", UnusedSpace);
 		}
 	}
 	else if(IsCommandNameEqual("add"))
